@@ -87,6 +87,7 @@
 
             <div class="card-body">
                 <form method="" action="#">
+                    @csrf
                     <div class="form-group">
                         <label for="price">Product Category :</label>
                         <select class="form-control" id="exampleFormControlSelect1">

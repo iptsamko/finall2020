@@ -87,6 +87,7 @@
 
             <div class="card-body">
                 <form method="" action="#">
+                    @csrf
                     <div class="form-group">
                         <input type="hidden" name="_token" value="ZTp076smOAQZQcLjplDuaAjj9PukkjH4VJYbJlbZ">
                         <label for="name">Category Name:</label>
